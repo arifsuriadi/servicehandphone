@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Arif Service - Jasa service handphone terpercaya. Aman, Cepat, Terpercaya. Perbaikan layar, baterai, software, dan lainnya dengan garansi resmi.">
+    <meta name="keywords"
+        content="service handphone, perbaikan hp, ganti lcd, ganti baterai, service hp terdekat, Arif Service">
+    <meta name="author" content="Arif Service">
+    <title>Arif Service | Aman, Cepat, Terpercaya — Jasa Service Handphone</title>
+    <link rel="icon" type="image/x-icon" href="images/ico2.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loading-screen">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Arif Service</div>
+    </div>
+
+    <!-- Particles Background -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- ======= NAVBAR ======= -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <div class="logo-icon"><img src="images/navbar.png" alt=""></div>
+                <div class="brand-text">Arif <span>Service</span></div>
+            </a>
+
+            <div class="nav-links" id="nav-links">
+                <a href="#beranda" class="active">Beranda</a>
+                <a href="#layanan">Layanan</a>
+                <a href="#keunggulan">Keunggulan</a>
+                <a href="#proses">Proses</a>
+                <a href="#testimoni">Testimoni</a>
+                <a href="#kontak" class="nav-cta">Hubungi Kami</a>
+            </div>
+
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ======= HERO ======= -->
+    <section class="hero" id="beranda">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="pulse-dot"></span>
+                    Buka Setiap Hari — 08:00 - 22:00
+                </div>
+
+                <h1>
+                    Solusi <span class="highlight">Service HP</span><br>
+                    yang <span class="typing-keyword">Terpercaya</span><span class="cursor">|</span>
+                </h1>
+
+                <p class="hero-tagline">
+                    <strong>Arif Service</strong> — Tempat terbaik untuk perbaikan handphone Anda.
+                    Kami hadir dengan layanan yang <strong>Aman, Cepat, dan Terpercaya</strong> untuk semua merek dan
+                    tipe handphone seperti android atau iphone.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="https://wa.me/628385522421" class="btn btn-primary" target="_blank">
+                        💬 Chat WhatsApp
+                    </a>
+                    <a href="#layanan" class="btn btn-outline">
+                        🔧 Lihat Layanan
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number"><span class="counter" data-target="1000" data-suffix="+">0</span></div>
+                        <div class="stat-label">HP Diperbaiki</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number"><span class="counter" data-target="8" data-suffix=" Tahun">0</span>
+                        </div>
+                        <div class="stat-label">Pengalaman</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number"><span class="counter" data-target="98" data-suffix="%">0</span></div>
+                        <div class="stat-label">Pelanggan Puas</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="phone-mockup">
+                    <div class="phone-body">
+                        <div class="phone-notch"></div>
+                        <div class="phone-screen">
+                            <div class="screen-icon">🔧</div>
+                            <div class="screen-text">Arif Service</div>
+                            <div class="screen-sub">Aman • Cepat • Terpercaya</div>
+                        </div>
+                    </div>
+
+                    <!-- Floating Badges -->
+                    <div class="floating-badge top-left">
+                        <span class="badge-icon">✅</span>
+                        <span>Bergaransi</span>
+                    </div>
+                    <div class="floating-badge top-right">
+                        <span class="badge-icon">⚡</span>
+                        <span>Express 1 Jam</span>
+                    </div>
+                    <div class="floating-badge bottom-left">
+                        <span class="badge-icon">🔒</span>
+                        <span>Data Aman</span>
+                    </div>
+                    <div class="floating-badge bottom-right">
+                        <span class="badge-icon">💰</span>
+                        <span>Harga Bersahabat</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= LAYANAN / SERVICES ======= -->
+    <section class="section services" id="layanan">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-tag">Layanan Kami</div>
+                <h2>Layanan Service <span style="color: var(--primary-400)">Profesional</span></h2>
+                <p>Kami menangani berbagai kerusakan handphone dengan sparepart berkualitas dan teknisi berpengalaman.
+                </p>
+                <p class="service-note">📌 <em>Catatan: Harga perbaikan dapat berbeda sesuai dengan merek dan tipe
+                        handphone.</em></p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Card 1 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">📱</div>
+                    <h3>Ganti LCD / Layar</h3>
+                    <p>Perbaikan layar pecah, LCD bergaris, atau touchscreen tidak responsif. Tersedia untuk semua merek
+                        handphone.</p>
+                    <div class="service-price">💵 Mulai Rp 150.000</div>
+                </div>
+                <!-- Card 2 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">🔋</div>
+                    <h3>Ganti Baterai</h3>
+                    <p>Baterai cepat habis atau kembung? Ganti dengan baterai original bergaransi untuk performa
+                        optimal.</p>
+                    <div class="service-price">💵 Mulai Rp 80.000</div>
+                </div>
+                <!-- Card 3 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">💻</div>
+                    <h3>Perbaikan Software</h3>
+                    <p>Atasi HP hang, bootloop, lag, lupa pola/password, dan masalah software lainnya secara tuntas.</p>
+                    <div class="service-price">💵 Mulai Rp 50.000</div>
+                </div>
+                <!-- Card 4 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">🔌</div>
+                    <h3>Ganti Konektor Cas</h3>
+                    <p>HP tidak bisa di-charge atau koneksi kabel longgar? Kami ganti konektor dengan yang baru dan
+                        terjamin.</p>
+                    <div class="service-price">💵 Mulai Rp 70.000</div>
+                </div>
+                <!-- Card 5 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">📸</div>
+                    <h3>Perbaikan Kamera</h3>
+                    <p>Kamera blur, tidak fokus, atau error? Kami perbaiki atau ganti modul kamera handphone Anda.</p>
+                    <div class="service-price">💵 Mulai Rp 100.000</div>
+                </div>
+                <!-- Card 6 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">🔊</div>
+                    <h3>Perbaikan Speaker & Mic</h3>
+                    <p>Suara tidak keluar, mic mati saat telepon, atau speaker pecah? Kami tangani dengan cepat.</p>
+                    <div class="service-price">💵 Mulai Rp 60.000</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= KEUNGGULAN / WHY US ======= -->
+    <section class="section why-us" id="keunggulan">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-tag">Mengapa Kami</div>
+                <h2>Keunggulan <span style="color: var(--primary-400)">Arif Service</span></h2>
+                <p>Kami memberikan pelayanan terbaik dengan standar kualitas tinggi untuk setiap pelanggan.</p>
+            </div>
+
+            <div class="why-us-grid">
+                <div class="why-us-content reveal">
+                    <div class="why-item">
+                        <div class="why-icon">🔒</div>
+                        <div>
+                            <h4>Aman & Terjamin</h4>
+                            <p>Data dan privasi handphone Anda aman di tangan kami. Kami menjaga kerahasiaan setiap
+                                pelanggan.</p>
+                        </div>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon">⚡</div>
+                        <div>
+                            <h4>Proses Cepat</h4>
+                            <p>Sebagian besar perbaikan selesai dalam 1-2 jam. Tersedia juga layanan express untuk
+                                kebutuhan darurat.</p>
+                        </div>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon">🏆</div>
+                        <div>
+                            <h4>Teknisi Berpengalaman</h4>
+                            <p>Tim teknisi kami sudah berpengalaman lebih dari 8 tahun menangani berbagai jenis
+                                kerusakan HP.</p>
+                        </div>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon">🛡️</div>
+                        <div>
+                            <h4>Garansi Resmi</h4>
+                            <p>Setiap perbaikan mendapat garansi service hingga 30 hari. Jaminan kualitas kerja kami.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="why-item">
+                        <div class="why-icon">🏠</div>
+                        <div>
+                            <h4>Jemput ke Rumah</h4>
+                            <p>Tidak sempat ke toko? Kami bisa mengambil handphone yang mau diperbaiki langsung ke rumah
+                                Anda.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="why-us-visual reveal">
+                    <div class="stat-card">
+                        <div class="stat-emoji">🏅</div>
+                        <div class="stat-info">
+                            <h3>1.000<span>+</span></h3>
+                            <p>HP Berhasil Diperbaiki</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-emoji">⭐</div>
+                        <div class="stat-info">
+                            <h3>4.9<span>/5</span></h3>
+                            <p>Rating Kepuasan Pelanggan</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-emoji">🔧</div>
+                        <div class="stat-info">
+                            <h3>8<span>+</span></h3>
+                            <p>Tahun Pengalaman</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-emoji">📦</div>
+                        <div class="stat-info">
+                            <h3>100<span>%</span></h3>
+                            <p>Sparepart Original</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= PROSES / PROCESS ======= -->
+    <section class="section process" id="proses">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-tag">Cara Kerja</div>
+                <h2>Proses Service yang <span style="color: var(--primary-400)">Mudah</span></h2>
+                <p>Hanya 4 langkah mudah untuk memperbaiki handphone Anda di Arif Service.</p>
+            </div>
+
+            <div class="process-steps reveal">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-icon">📞</div>
+                    <h4>Hubungi Kami</h4>
+                    <p>Chat WhatsApp atau datang langsung ke toko kami untuk konsultasi gratis.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-icon">🔍</div>
+                    <h4>Diagnosa</h4>
+                    <p>Teknisi akan melakukan pengecekan menyeluruh dan memberi estimasi biaya.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-icon">🔧</div>
+                    <h4>Perbaikan</h4>
+                    <p>Proses pengerjaan dengan sparepart berkualitas dan standar profesional.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="step-icon">✅</div>
+                    <h4>Selesai!</h4>
+                    <p>HP Anda kembali normal dengan garansi service. Bayar saat selesai.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= TESTIMONI ======= -->
+    <section class="section testimonials" id="testimoni">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-tag">Testimoni</div>
+                <h2>Apa Kata <span style="color: var(--primary-400)">Pelanggan Kami</span></h2>
+                <p>Kepuasan pelanggan adalah prioritas utama kami. Berikut testimoni dari mereka.</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"LCD HP saya pecah parah, tapi di Arif Service diperbaiki cuma 1 jam!
+                        Hasilnya seperti baru lagi. Harga juga sangat bersahabat. Recommended banget!"</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">RN</div>
+                        <div class="testimonial-info">
+                            <h5>Rina Nurhaliza</h5>
+                            <p>Samsung Galaxy S23</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card reveal">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"HP saya kena bootloop dan data penting semua masih di dalam.
+                        Alhamdulillah di Arif Service data bisa diselamatkan semua. Teknisinya ramah dan profesional."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">AP</div>
+                        <div class="testimonial-info">
+                            <h5>Rosalina</h5>
+                            <p>Oppo A3s</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card reveal">
+                    <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                    <p class="testimonial-text">"Sudah 3 kali service di sini, dari ganti baterai sampai ganti konektor
+                        cas. Selalu puas dengan hasilnya. Garansi juga beneran dikasih. Mantap!"</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">DF</div>
+                        <div class="testimonial-info">
+                            <h5>Rizki Pratama</h5>
+                            <p>Xiaomi Redmi Not 10 Pro</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= CTA SECTION ======= -->
+    <section class="section cta-section">
+        <div class="container">
+            <div class="cta-box reveal">
+                <h2>HP Bermasalah? Jangan Panik! 🤙</h2>
+                <p>Hubungi Arif Service sekarang dan dapatkan konsultasi GRATIS. Kami siap membantu Anda kapan saja.</p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/628385522421" class="btn btn-primary" target="_blank">
+                        💬 Chat WhatsApp Sekarang
+                    </a>
+                    <a href="#kontak" class="btn btn-outline">
+                        📍 Lihat Lokasi
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= KONTAK / CONTACT ======= -->
+    <section class="section contact" id="kontak">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-tag">Hubungi Kami</div>
+                <h2>Lokasi & <span style="color: var(--primary-400)">Kontak</span></h2>
+                <p>Silakan hubungi kami melalui cara yang paling nyaman untuk Anda.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <p>Kami siap membantu Anda setiap hari. Hubungi kami untuk konsultasi gratis atau langsung datang ke
+                        toko.</p>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4>Alamat Toko</h4>
+                            <p>Jl. Diponogoro Bermis 2</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h4>Telepon / WhatsApp</h4>
+                            <p>083-855-224-21</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">🕐</div>
+                        <div>
+                            <h4>Jam Operasional</h4>
+                            <p>Senin - Minggu: 08:00 - 22:00 WIB</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>arifsuriadi05@mail.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form reveal">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap</label>
+                            <input type="text" id="name" name="name" placeholder="Masukkan nama Anda" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Nomor WhatsApp</label>
+                            <input type="tel" id="phone" name="phone" placeholder="08xx-xxxx-xxxx" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone-type">Jenis Handphone</label>
+                            <input type="text" id="phone-type" name="phone-type"
+                                placeholder="Contoh: Samsung Galaxy A54, iPhone 13, dll" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service-type">Jenis Layanan</label>
+                            <select id="service-type" name="service" required>
+                                <option value="" disabled selected>Pilih jenis layanan</option>
+                                <option value="lcd">Ganti LCD / Layar</option>
+                                <option value="baterai">Ganti Baterai</option>
+                                <option value="software">Perbaikan Software</option>
+                                <option value="konektor">Ganti Konektor Cas</option>
+                                <option value="kamera">Perbaikan Kamera</option>
+                                <option value="speaker">Perbaikan Speaker & Mic</option>
+                                <option value="lainnya">Lainnya</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Keluhan / Pesan</label>
+                            <textarea id="message" name="message" placeholder="Jelaskan masalah HP Anda..."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary form-submit">
+                            📩 Kirim Pesan
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======= FOOTER ======= -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="brand-text">Arif <span>Service</span></div>
+                    <p>Jasa service handphone profesional yang Aman, Cepat, dan Terpercaya. Solusi terbaik untuk semua
+                        masalah HP Anda.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="Instagram">📷</a>
+                        <a href="#" class="social-link" title="Facebook">👍</a>
+                        <a href="#" class="social-link" title="TikTok">🎵</a>
+                        <a href="https://wa.me/6281234567890" class="social-link" title="WhatsApp"
+                            target="_blank">💬</a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Layanan</h4>
+                    <a href="#layanan">Ganti LCD</a>
+                    <a href="#layanan">Ganti Baterai</a>
+                    <a href="#layanan">Perbaikan Software</a>
+                    <a href="#layanan">Ganti Konektor</a>
+                    <a href="#layanan">Perbaikan Kamera</a>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Navigasi</h4>
+                    <a href="#beranda">Beranda</a>
+                    <a href="#layanan">Layanan</a>
+                    <a href="#keunggulan">Keunggulan</a>
+                    <a href="#proses">Proses</a>
+                    <a href="#testimoni">Testimoni</a>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Kontak</h4>
+                    <a href="#">📍 Jl. Diponogoro Bermis 2</a>
+                    <a href="tel:08385522421">📞 083-855-224-21</a>
+                    <a href="mailto:arifsuriadi05@gmail.com">📧 arifsuriadi05@gmail.com</a>
+                    <a href="#">🕐 08:00 - 22:00 WIB</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Arif Service. All rights reserved.</p>
+                <p>Aman • Cepat • Terpercaya</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scroll-top" title="Kembali ke atas">↑</button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
